@@ -1,0 +1,565 @@
+
+/* custom css */
+body, span .container {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.table th {
+   text-align: center!important;   
+   background-color: #fdff3f!important;
+   border:solid 1px #A4A4A4!important;
+}
+.table td {
+   text-align: center!important;   
+   border:solid 1px #A4A4A4!important;
+
+}
+
+.required {
+	border-color:red;
+}
+
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#logo {
+	height: 100%;
+	margin-top: -15px;
+	margin-left: 5%;
+}
+
+.main-header {
+	height: 100px;
+	margin-top: 0px;
+	color:#1C1C1C;
+	background-color: #eef034;
+	font-size:20px;
+	padding-top: 2%;
+	font-family: 'Russo One', sans-serif;
+}
+
+.logo {
+	height: 40px;
+	margin-top: -25px;
+	margin-left: 70px;
+}
+
+.nav {
+	margin-left: -5px;
+	margin-right: -5px;
+	border:none;
+}
+.form-control {
+	margin-top: 10px;
+}
+
+.modal-dialog {
+
+	width: 40%;
+}
+
+#currentTime {
+	margin-top: 10px;
+	padding-left: 10px;
+}
+
+.expired {
+	background-color: #D8D8D8;
+}
+
+.panel-heading {
+	font-size:20px;
+	color: white;
+
+}
+
+
+.body-panel {
+	height: 100px;
+	padding-top: 10px;
+}
+
+#txtSearchMember {
+	margin-top: 0px;
+	height: 42px;
+	font-size:15px;
+	border-radius: 0px;
+	width: 70%;
+}
+
+#txtSearchLoan {
+	margin-top: 0px;
+	height: 42px;
+	font-size:15px;
+	border-radius: 0px;
+	width: 70%;
+}
+
+#txtSearchProd {
+	margin-top: 0px;
+	height: 42px;
+	font-size:15px;
+	border-radius: 0px;
+	width: 70%;
+}
+
+
+#addBtn{
+	margin-top: -15px;
+	border-radius: 0px;
+	margin-bottom: 10px;
+}
+
+#addLoanBtn {
+	margin-top: -15px;
+	border-radius: 0px;
+	margin-bottom: 10px;
+}
+
+#addProdBtn {
+	margin-top: -15px;
+	border-radius: 0px;
+	margin-bottom: 10px;
+}
+
+.addMember {
+	padding-left: 10%;
+}
+
+
+/*#addProdBtn, #addLoanBtn, #addBtn {
+  color: black;
+}
+#addProdBtn:hover, #addLoanBtn:hover, #addBtn:hover{
+	text-decoration: none;
+};
+#addProdBtn:active {
+	text-decoration: none;
+}*/
+
+.btnEdit, .btnDelete {
+	border-radius: 1px;
+} 
+
+.login-header{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.login-page {
+	
+
+}
+
+.container > h1 {
+	font-size: 100px;
+	margin-bottom: -30px;
+}
+
+.loginpanel {
+	margin-top: 10%;
+	background-color: #FFF255;
+	height: 420px;
+}
+
+.login-text {
+	font-family: 'Noto Sans', sans-serif;
+	border-radius: 0px;
+	height: 40px;
+	width: 70%;
+	font-size:15px;
+}
+
+.innerbox {
+	padding-top: 10%;
+}
+
+.innerbox > h5 {
+	margin-left: 15%;
+	margin-bottom: -5px;
+	margin-top: 10px;
+}
+
+#btnLogin {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px;
+    width:70%;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.message {
+	text-align: center;
+	color:red;
+}
+
+.add-name-labels {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 80%;
+	margin-bottom: 10px;
+	height: 40px;
+	border-radius: 0px!important;
+}
+
+
+#txtAddress, #editAddress {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 80%;
+	margin-bottom: 10px;
+	height: 80px;
+}
+
+
+#loan-panel {
+	width: 80%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#addLoanModal .modal-dialog {
+	width: 50%;
+}
+
+#editdropdownGender {
+	margin-top: 0px;
+}
+
+.loan-memberside {
+	height: 240px;
+	border-right: solid 1px black;
+}
+
+.loan-labels {
+	color: black;	
+	margin-top: 10px;
+}
+
+.loan-info {
+	background-color: #F5F6CE;
+	height: 240px;
+}
+
+.loan-summary {
+	margin-top: 10px;
+	background-color: #99FF94;
+}
+
+.lower-loan {
+	padding:5px;
+	background-color: #99FF94;
+}
+
+.loan-payment {
+	color: black;
+}
+
+.loan-value {
+	font-size:20px;
+	color: #1A8100;
+}
+
+
+.loan-fullname {
+	height: 80px;
+}
+
+#loanFName {
+	font-size:18px;
+}
+
+#txtLoanAmount {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 90%;
+	margin-bottom: 10px;
+	height: 40px;
+}
+
+#txtMemberCodeLoan {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 50%;
+	margin-bottom: 10px;
+	height: 40px;
+}
+
+#txtLoanPurpose {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 90%;
+	margin-bottom: 10px;
+	height: 40px;
+	outline: none;
+}
+
+.loan-details {
+	background-color: white;
+	margin-left: 10%;
+	margin-top: 8%;
+	color: black;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.loan-balance {
+	margin-left: 10%;
+	height: 200px;
+}
+
+#loanDetailsModal .modal-dialog {
+	width: 60%;
+}
+
+.loan-details-side {
+	font-size: 15px;
+	height: 250px;
+}
+
+.loan-details-value {
+	font-size: 14px;
+
+
+}
+.loan-details-labels {
+	font-size: 13px;
+	text-align: right;
+	background-color: #F2F2F2;
+}
+
+
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border: none!important;
+}
+
+.showPaymentHistory {
+	margin-bottom: 5px;
+}
+
+.expired-alert {
+	color:red;
+}
+
+
+#loanBalance {
+	height: 60px;
+	background-color: #FFF28B;
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	padding:10px;
+	margin-top: 5%!important;
+}
+
+.amount-input {
+	margin-top: 0px;
+	text-align: center;
+	height: 80px;
+	padding:5px;
+	background-color: #F2F2F2;
+}
+
+#loanExpired {
+	line-height: -10px;
+}
+
+#updateBalance {
+	height: 50px;
+	padding-top: 15px;
+	width: 100%;
+	margin-left: -15px;	
+
+}
+
+#txtLastPayment {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	width: 60%;
+	height: 50px;
+	outline: none;
+	font-size: 16px;
+}
+
+
+#paymentTable  {
+	margin-top: 10px;
+	width: 100%;
+}
+
+.right-loan {
+	height: 280px;
+}
+
+
+.lbl-balance {
+	background-color: #d9534f;
+	color:white;
+}
+
+#tblLoanDetails {
+	margin-bottom: 0px;
+	border:none;
+}
+
+.notif {
+	background-color: #D8D8D8;
+}
+
+.lblstock {
+	color: red;
+}
+
+#transModal .modal-dialog {
+	width: 70%;
+	max-height: 100%;
+	height: auto;
+	min-width: 968px;
+}
+
+.group1 {
+	padding-bottom: 20px;
+}
+
+#txtMemberCode {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 40%;
+	margin-bottom: 10px;
+	height: 40px;
+}
+
+#payMemberCode {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 40%;
+	margin-bottom: 10px;
+	height: 40px;
+}
+
+#txtPaymentCredit {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 40%;
+	margin-bottom: 10px;
+	height: 40px;
+}
+
+#btnPayCredit {
+	margin-top: -3px;
+	height: 40px;
+}
+
+#txtProduct {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 80%;
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+#txtQuantity {
+	margin-top: 0px;
+	height: 40px;
+	width: 30%;
+}
+
+#btnAddProd, #btnCancel {
+	margin-top: 20px;
+	height: 45px;
+	border-radius: 2px;
+	width: 35%;
+	outline: none;
+}
+
+
+.prod-info {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.product-area {
+	background-color: #F5F6CE;
+	height: 120px;
+	border-left:solid 1px;
+}
+
+.table-area {
+	padding-top: 10px;
+	overflow-y: auto;
+	height: 200px;
+	background-color: #F2F2F2;
+	border-left:solid 1px;
+}
+
+.amount-total {
+	border-left: 1px solid;
+	font-size:25px;
+	background-color: #F5F6CE;
+	text-align: center;
+	padding-top: 7px;
+}
+
+
+.labels {
+	font-size: 13px;
+	margin-left: 10px;
+}
+
+.lblresults {
+	font-size: 15px;
+}
+
+
+.modal-content  {
+    -webkit-border-radius: 0px !important;	
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+
+.btn {
+	border-radius: 0px;
+}
+.form-control {
+	border-radius: 0px;
+}
+
+.myBox {
+	padding: 30px;
+	height: auto;
+}
+.transUserId {
+	margin-left: -10px;
+}
+
+.lblfname, .lbllname, .lbl{
+	font-size: 15px;
+}
+
+.label {
+	border-radius: 0px;
+}
+
+.myloans-label {
+	font-size:20px;
+}
+
+.myloans-div {
+	background-color: #FFFFAF; 
+}
+
+.not-paid {
+	background-color: #d9534f;
+	color:white;
+}	
+
+.paid {
+	background-color: #04B404;
+	color:white;
+}
